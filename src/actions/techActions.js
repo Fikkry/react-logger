@@ -6,7 +6,7 @@ import {
   SET_LOADING,
 } from '../actions/types'
 
-// Get techs from server
+// Get technicians from server
 export const getTechs = () => async (dispatch) => {
   try {
     setLoading()
@@ -20,7 +20,7 @@ export const getTechs = () => async (dispatch) => {
   }
 }
 
-// Add new tech
+// Add new technician
 export const addTech = (tech) => async (dispatch) => {
   try {
     setLoading()
@@ -41,7 +41,7 @@ export const addTech = (tech) => async (dispatch) => {
   }
 }
 
-// Delete tech
+// Delete technician
 export const deleteTech = (id) => async (dispatch) => {
   try {
     setLoading()
